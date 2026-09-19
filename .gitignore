@@ -1,0 +1,38 @@
+# 一、Python 运行产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 二、虚拟环境（本项目无第三方依赖，预留）
+venv/
+.venv/
+env/
+
+# 三、编辑器 / 系统文件
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 四、程序生成的输出文件（题目要求生成在执行目录下，属于运行产物，不入库）
+#     加前导 "/" 表示只忽略仓库根目录的这三个文件，不影响 examples/ 下的样例
+/Exercises.txt
+/Answers.txt
+/Grade.txt
+
+# 五、误装进本目录的 Python 环境（Lib/ Scripts/ 等），绝不能入库
+/Lib/
+/Scripts/
+/pyvenv.cfg
+/share/
+/include/
+*.pyd
+*.dll
+
+# 六、性能分析的中间产物与其他构建垃圾
+*.out
+*.prof
+build/
+dist/
+*.egg-info/

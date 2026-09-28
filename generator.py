@@ -7,7 +7,6 @@
 3. 每道题运算符不超过 3 个
 4. 题目不重复（考虑 + 和 × 的交换律）
 
-结对作者：谭添睿（3224004344）、李采云（3224004382）
 """
 import random
 from fractions import Fraction

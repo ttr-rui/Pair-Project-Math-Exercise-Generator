@@ -1,7 +1,6 @@
 """
 单元测试：覆盖分数工具、表达式求值、题目生成、批改功能。
 
-结对作者：谭添睿（3224004344）、李采云（3224004382）
 """
 import unittest
 from fractions import Fraction

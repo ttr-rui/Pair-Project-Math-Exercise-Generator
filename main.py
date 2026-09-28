@@ -5,7 +5,6 @@
     python main.py -n 10 -r 10
     python main.py -e Exercises.txt -a Answers.txt
 
-结对作者：谭添睿（3224004344）、李采云（3224004382）
 """
 import argparse
 import sys
